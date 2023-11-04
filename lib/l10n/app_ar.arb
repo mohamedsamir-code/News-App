@@ -1,0 +1,15 @@
+{
+  "sports": "الرياضات",
+  "business": "الاعمال",
+  "general": "عام",
+  "science": "العلوم",
+  "entertainment": "الترفيه",
+  "health": "الصحة",
+  "language": "اللغة",
+  "settings": "الاعدادات",
+  "newsApp": "تطبيق الأخبار",
+  "categories": "الفئات",
+  "pickYourCategoryOfInterest": "اختر فئة اهتمامك",
+  "searchArticles": "ابحث في المقالات",
+  "viewFullArticle": "عرض المقال كاملا"
+}
