@@ -15,7 +15,13 @@ class AppConfigProvider extends ChangeNotifier {
     preferences!.setString(languageKey, newLanguage);
   }
 
-
+  Future<void> loadSettingConfig() async {
+    preferences = await SharedPreferences.getInstance();
+    String? lang = getLanguage();
+    if (lang != null) {
+      appLanguage = lang;
+    }
+  }
   void changeLanguage(String langcode) {
     if (langcode == appLanguage) {
       return;

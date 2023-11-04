@@ -12,6 +12,7 @@ import 'package:provider/provider.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   var provider = AppConfigProvider();
+  provider.loadSettingConfig();
   runApp(ChangeNotifierProvider(
       create: (buildContext) {
         return provider;
