@@ -23,7 +23,7 @@ class CategoryItemWidget extends StatelessWidget {
         children: [
           Image.asset(
             category.imagePath,
-            height: 120,
+            height: 110,
           ),
           Text(
             category.title,
